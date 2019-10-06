@@ -1,0 +1,142 @@
+@import url("./all.min.css");
+@import url("./bootstrap.min.css"); 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+
+:root{
+    --font-families: var(--font-family-sans-serif), 'Noto Sans TC';
+    --color-light1: rgb(235,247,255);
+    --color-light2: rgb(142,169,186);
+    --color-dark1: rgb(41,54,65);
+    --color-dark2: rgb(33,47,57);
+    --color-dark3: rgb(0,12,20);
+    --color-dark3a: rgba(0,12,20,0.5);
+    --color-main: rgb(57, 126, 204);
+    --color-accent: rgb(255, 110, 97);
+    --color-triad: rgb(134, 153, 28);
+    --color-complmnt: rgb(204, 151, 57);
+}
+
+.text-light1{
+    color: var(--color-light1) !important;
+}
+.text-light2{
+    color: var(--color-light2) !important;
+}
+.text-dark1{
+    color: var(--color-dark1) !important;
+}
+.text-dark2{
+    color: var(--color-dark2) !important;
+}
+.text-dark3{
+    color: var(--color-dark3) !important;
+}
+.text-main{
+    color: var(--color-main) !important;
+}
+.text-accent{
+    color: var(--color-accent) !important;
+}
+.text-triad{
+    color: var(--color-triad) !important;
+}
+.text-complmnt{
+    color: var(--color-complmnt) !important;
+}
+.bg-light1{
+    background-color: var(--color-light1);
+}
+.bg-light2{
+    background-color: var(--color-light2);
+}
+.bg-dark1{
+    background-color: var(--color-dark1);
+}
+.bg-dark2{
+    background-color: var(--color-dark2);
+}
+.bg-dark3{
+    background-color: var(--color-dark3);
+}
+.bg-dark3a{
+    background-color: var(--color-dark3a);
+}
+.bg-main{
+    background-color: var(--color-main);
+}
+.bg-accent{
+    background-color: var(--color-accent);
+}
+.bg-triad{
+    background-color: var(--color-triad);
+}
+.bg-complmnt{
+    background-color: var(--color-complmnt);
+}
+
+
+body {
+    font-family: var(--font-families);
+}
+
+.nav-link.text-light1{
+    transition: all 0.35s ease;
+}
+.nav-link.text-light1:hover{
+    background-color: var(--color-dark2);
+    color: var(--color-triad) !important;
+}
+
+.main-wrap{
+    min-height: calc(100vh - 6.5rem);
+}
+
+table a.text-light1{
+    text-shadow: 2px 2px 0 var(--color-main);
+}
+table a.text-light1:hover{
+    text-decoration: none;
+    text-shadow: 2px 2px 0 var(--color-accent);
+}
+
+
+.status{
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+    margin: 0 0.5rem;
+    transition: all 0.35s ease;
+}
+
+.status.unknown{
+    background-color: #ddd;
+    box-shadow: 0 0 0.8rem #ddd;
+    animation: unknown-glow 1.5s ease-in infinite alternate;
+}
+
+@keyframes unknown-glow {
+    0% {box-shadow: 0 0 0.8rem #ddd;}
+    100% {box-shadow: 0 0 1px #ddd;}
+}
+
+.status.ok{
+    background-color: var(--color-triad);
+    box-shadow: 0 0 0.8rem var(--color-triad);
+    animation: ok-glow 2s ease-in infinite alternate;
+}
+
+@keyframes ok-glow {
+    0% {box-shadow: 0 0 0.8rem var(--color-triad);}
+    100% {box-shadow: 0 0 1px var(--color-triad);}
+}
+
+.status.error{
+    background-color: var(--color-accent);
+    box-shadow: 0 0 1rem var(--color-accent), 0 0 0.1rem var(--color-accent);
+    animation: error-glow 1s ease-in infinite alternate;
+}
+
+@keyframes error-glow {
+    0% {box-shadow: 0 0 1rem var(--color-accent), 0 0 0.1rem var(--color-accent);}
+    100% {box-shadow: 0 0 1px var(--color-accent), 0 0 0.1rem var(--color-accent);}
+}

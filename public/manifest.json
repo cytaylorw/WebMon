@@ -1,0 +1,21 @@
+{
+    "short_name": "WebMon",
+    "name": "WebMon",
+    "icons": [
+      {
+        "src": "/images/icon_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icon_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#293641",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#397ECC"
+  }

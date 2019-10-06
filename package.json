@@ -1,0 +1,28 @@
+{
+  "name": "webmon",
+  "version": "1.0.0",
+  "description": "WebMon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cytaylorw/WebMon.git"
+  },
+  "author": "Taylor Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cytaylorw/WebMon/issues"
+  },
+  "homepage": "https://github.com/cytaylorw/WebMon#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.3"
+  }
+}
