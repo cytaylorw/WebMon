@@ -19,7 +19,12 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  './' // Alias for index.html
+  './', // Alias for index.html
+  './css/all.min.css',
+  './css/boostrap.min.css',
+  './css/notosanstc.css',
+  './js/bootstrap.bundle.min.js',
+  './js/jquery-3.4.1.min.js'
 ];
 
 // The install handler takes care of precaching the resources we always need.

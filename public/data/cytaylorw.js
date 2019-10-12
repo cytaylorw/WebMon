@@ -1,8 +1,34 @@
 let cytaylorw = [
     {
         status: 'Status',
-        name: '政府開放資料 - 展覽資訊',
-        url: 'https://cytaylorw.github.io/php1081-web-final/',
-        description: 'PHP資料庫網頁設計期末作業'
+        name: '產品銷售管理系統',
+        url: {
+            href: 'https://demo.cytaylorw.idv.tw:60000',
+            text: 'demo@CYTaylorW'
+        },
+        description: 'PHP, HTML, CSS, JavaScript, No framework'
+    },
+    {
+        name: '政府開放資料 - 展覽資訊API',
+        url: {
+            href: 'https://api.cytaylorw.idv.tw/github/final/',
+            text: 'api@CYTaylorW'
+        },
+        description: 'PHP'
+    },
+    {
+        url: {
+            href: 'https://demo.cytaylorw.idv.tw:60001',
+        },
+        name: 'Laravel From Scratch',
+        description: 'Laravel Tutorial'
+    },
+    {
+        url: {
+            href: 'https://demo.cytaylorw.idv.tw:60001/hide&seek',
+            text: 'hide&seek@@CYTaylorW'
+        },
+        name: 'Not Found Example'
     }
+
 ];

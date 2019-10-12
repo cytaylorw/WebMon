@@ -1,9 +1,10 @@
 @import url("./all.min.css");
 @import url("./bootstrap.min.css"); 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional');
+@import url("./notosanstc.css"); 
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap&subset=chinese-traditional'); */
 
 :root{
-    --font-families: var(--font-family-sans-serif), 'Noto Sans TC';
+    --font-families: 'Noto Sans TC', var(--font-family-sans-serif);
     --color-light1: rgb(235,247,255);
     --color-light2: rgb(142,169,186);
     --color-dark1: rgb(41,54,65);
@@ -96,7 +97,7 @@ table a.text-light1{
 }
 table a.text-light1:hover{
     text-decoration: none;
-    text-shadow: 2px 2px 0 var(--color-accent);
+    text-shadow: 2px 2px 0 var(--color-triad);
 }
 
 
@@ -105,7 +106,7 @@ table a.text-light1:hover{
     height: 0.8rem;
     width: 0.8rem;
     margin: 0 0.5rem;
-    transition: all 0.35s ease;
+    transition: all 0.5s ease;
 }
 
 .status.unknown{
@@ -121,22 +122,30 @@ table a.text-light1:hover{
 
 .status.ok{
     background-color: var(--color-triad);
-    box-shadow: 0 0 0.8rem var(--color-triad);
+    box-shadow: 0 0 0.5rem 0 var(--color-triad);
     animation: ok-glow 2s ease-in infinite alternate;
 }
 
 @keyframes ok-glow {
-    0% {box-shadow: 0 0 0.8rem var(--color-triad);}
-    100% {box-shadow: 0 0 1px var(--color-triad);}
+    0% {box-shadow: 0 0 0.5rem 0 var(--color-triad);}
+    100% {box-shadow: 0 0 0.5rem 0.25rem var(--color-triad);}
 }
 
 .status.error{
     background-color: var(--color-accent);
-    box-shadow: 0 0 1rem var(--color-accent), 0 0 0.1rem var(--color-accent);
-    animation: error-glow 1s ease-in infinite alternate;
+    box-shadow: 0 0 0.5rem 0 var(--color-accent);
+    animation: error-glow 1s ease-out infinite alternate;
 }
 
 @keyframes error-glow {
-    0% {box-shadow: 0 0 1rem var(--color-accent), 0 0 0.1rem var(--color-accent);}
-    100% {box-shadow: 0 0 1px var(--color-accent), 0 0 0.1rem var(--color-accent);}
+    0% {
+        box-shadow: 0 0 0.5rem 0 var(--color-accent);
+    }
+    100% {
+        box-shadow: 0 0 0.5rem 0.3rem var(--color-accent);
+    }
+}
+
+.statusText{
+    transition: all 0.5s ease;
 }
