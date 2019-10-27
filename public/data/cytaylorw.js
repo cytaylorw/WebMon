@@ -11,7 +11,7 @@ let data = [
     {
         name: '政府開放資料 - 展覽資訊API',
         url: {
-            href: 'https://api.cytaylorw.idv.tw/github/final/',
+            href: 'https://api.cytaylorw.idv.tw/github/final/api.php',
             text: 'api@CYTaylorW'
         },
         description: 'PHP'
