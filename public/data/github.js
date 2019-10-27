@@ -62,6 +62,14 @@ let github = [
             href: 'https://cytaylorw.github.io/php1081-web-midterm',
         },
         description: 'HTML, CSS'
+    },
+    {
+        name: 'GitHub',
+        url: {
+            text: '',
+            href: 'https://github.com/cytaylorw',
+        },
+        description: 'Empty Text Test'
     }
     
 ];

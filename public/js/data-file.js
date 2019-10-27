@@ -24,8 +24,7 @@ $(function(){
                     if(typeof element[columnKey].href === 'undefined'){
                         html += `<td></td>`;
                     }else{
-                        let aText = (typeof element[columnKey].text === 'undefined') ? 
-                            element[columnKey].href : element[columnKey].text;
+                        let aText = (element[columnKey].text) ? element[columnKey].text : element[columnKey].href;
                         html += `
                             <td>
                                 <a class="text-light1" href="${element[columnKey].href}">${aText}</a>
