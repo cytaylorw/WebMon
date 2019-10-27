@@ -14,9 +14,15 @@ router.get('/', (req, res) => {
         status.statusText = error.response.statusText;
     }).then(() => {
         if(status){
-            res.json(status);
+            res.json({
+                url: req.query.url,
+                ...status
+            });
         }else{
-            res.status(400).json({msg: 'Error'});
+            res.status(400).json({
+                url: req.query.url,
+                msg: 'Error'
+            });
         }
     });
 })

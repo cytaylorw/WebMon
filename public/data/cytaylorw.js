@@ -21,7 +21,10 @@ let cytaylorw = [
             href: 'https://demo.cytaylorw.idv.tw:60001',
         },
         name: 'Laravel From Scratch',
-        description: 'Laravel Tutorial'
+        description: {
+            href: 'https://www.youtube.com/playlist?list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-',
+            text: 'Laravel Tutorial at YouTube'
+        }
     },
     {
         url: {
