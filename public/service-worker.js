@@ -21,7 +21,7 @@ const RUNTIME = 'runtime';
 const PRECACHE_URLS = [
   './', // Alias for index.html
   './css/all.min.css',
-  './css/boostrap.min.css',
+  './css/bootstrap.min.css',
   './css/notosanstc.css',
   './js/bootstrap.bundle.min.js',
   './js/jquery-3.4.1.min.js'
