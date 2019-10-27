@@ -1,4 +1,4 @@
-let github = [
+let data = [
     {
         name: '政府開放資料 - 展覽資訊',
         url: {
