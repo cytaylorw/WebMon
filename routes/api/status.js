@@ -10,8 +10,13 @@ router.get('/', (req, res) => {
         status.statusText = response.statusText;
     }).catch(error => {
         status.ok = false;
-        status.status = error.response.status;
-        status.statusText = error.response.statusText;
+        if(error.response){
+            status.status = error.response.status;
+            status.statusText = error.response.statusText;
+        }else{
+            status.status = error.code;
+            status.statusText = error.message;
+        }
     }).then(() => {
         if(status){
             res.json({
