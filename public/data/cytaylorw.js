@@ -29,7 +29,7 @@ let data = [
     {
         url: {
             href: 'https://demo.taylorw.tw:60001/hide&seek',
-            text: 'hide&seek@@CYTaylorW'
+            text: 'hide&seek@CYTaylorW'
         },
         name: 'Not Found Example'
     }
