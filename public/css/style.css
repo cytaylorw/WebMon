@@ -149,3 +149,7 @@ table a.text-light1:hover{
 .statusText{
     transition: all 0.5s ease;
 }
+
+#dataTable th:first-of-type {
+    width: 10%;
+}
