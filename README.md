@@ -4,7 +4,7 @@ A Node.js application built to check status for websties. The initial version on
 
 ## Demo
 
-http://demo.cytaylorw.idv.tw:60009
+http://demo.taylorw.tw:60009
 
 ## Installation
 

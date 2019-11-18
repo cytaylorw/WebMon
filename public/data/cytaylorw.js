@@ -3,7 +3,7 @@ let data = [
         status: 'Status',
         name: '產品銷售管理系統',
         url: {
-            href: 'https://demo.cytaylorw.idv.tw:60000',
+            href: 'https://demo.taylorw.tw:60000',
             text: 'demo@CYTaylorW'
         },
         description: 'PHP, HTML, CSS, JavaScript, No framework'
@@ -11,14 +11,14 @@ let data = [
     {
         name: '政府開放資料 - 展覽資訊API',
         url: {
-            href: 'https://api.cytaylorw.idv.tw/github/final/api.php',
+            href: 'https://api.taylorw.tw/github/final/api.php',
             text: 'api@CYTaylorW'
         },
         description: 'PHP'
     },
     {
         url: {
-            href: 'https://demo.cytaylorw.idv.tw:60001',
+            href: 'https://demo.taylorw.tw:60001',
         },
         name: 'Laravel From Scratch',
         description: {
@@ -28,7 +28,7 @@ let data = [
     },
     {
         url: {
-            href: 'https://demo.cytaylorw.idv.tw:60001/hide&seek',
+            href: 'https://demo.taylorw.tw:60001/hide&seek',
             text: 'hide&seek@@CYTaylorW'
         },
         name: 'Not Found Example'
