@@ -33,6 +33,8 @@ $(function(){
                 }else{
                     html += `<td>${element[columnKey]}</td>`;
                 }
+            }else{
+                html += `<td></td>`;
             }
         });
         html += '</tr>';
