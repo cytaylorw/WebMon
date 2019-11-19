@@ -5,6 +5,10 @@ let data = [
             text: 'php1081-web-final',
             href: 'https://cytaylorw.github.io/php1081-web-final/',
         },
+        sourceCode: {
+            text: 'php1081-web-final@github',
+            href: 'https://github.com/cytaylorw/php1081-web-final/',
+        },
         description: 'JavaScript, jQuery, Bootstrap, RWD, PWA, Google Map, Google Analytics, and other JS frameworks/plugins'
     },
     {
@@ -12,6 +16,10 @@ let data = [
         url: {
             text: 'php1081-web-coffee',
             href: 'https://cytaylorw.github.io/php1081-web-coffee',
+        },
+        sourceCode: {
+            text: 'php1081-web-coffee@github',
+            href: 'https://github.com/cytaylorw/php1081-web-coffee',
         },
         description: 'JavaScript, jQuery, Bootstrap, Google Analytics, and other JS frameworks/plugins'
     },
@@ -21,6 +29,10 @@ let data = [
             text: 'php1081-web-card',
             href: 'https://cytaylorw.github.io/php1081-web-card',
         },
+        sourceCode: {
+            text: 'php1081-web-card@github',
+            href: 'https://github.com/cytaylorw/php1081-web-card',
+        },
         description: 'HTML, CSS, JavaScript, jQuery'
     },
     {
@@ -28,6 +40,10 @@ let data = [
         url: {
             text: 'php1081-web-zombie',
             href: 'https://cytaylorw.github.io/php1081-web-zombie',
+        },
+        sourceCode: {
+            text: 'php1081-web-zombie@github',
+            href: 'https://github.com/cytaylorw/php1081-web-zombie',
         },
         description: 'HTML, CSS, JavaScript, jQuery'
     },
@@ -37,6 +53,10 @@ let data = [
             text: 'php1081-web-clock',
             href: 'https://cytaylorw.github.io/php1081-web-clock',
         },
+        sourceCode: {
+            text: 'php1081-web-clock@github',
+            href: 'https://github.com/cytaylorw/php1081-web-clock',
+        },
         description: 'HTML, CSS, JavaScript'
     },
     {
@@ -44,6 +64,10 @@ let data = [
         url: {
             text: 'php1081-web-wam',
             href: 'https://cytaylorw.github.io/php1081-web-wam',
+        },
+        sourceCode: {
+            text: 'php1081-web-wam@github',
+            href: 'https://github.com/cytaylorw/php1081-web-wam',
         },
         description: 'HTML, CSS, JavaScript'
     },
@@ -53,6 +77,10 @@ let data = [
             text: 'php1081-web-calc',
             href: 'https://cytaylorw.github.io/php1081-web-calc',
         },
+        sourceCode: {
+            text: 'php1081-web-calc@github',
+            href: 'https://github.com/cytaylorw/php1081-web-calc',
+        },
         description: 'HTML, CSS, JavaScript'
     },
     {
@@ -60,6 +88,10 @@ let data = [
         url: {
             text: 'php1081-web-midterm',
             href: 'https://cytaylorw.github.io/php1081-web-midterm',
+        },
+        sourceCode: {
+            text: 'php1081-web-midterm@github',
+            href: 'https://github.com/cytaylorw/php1081-web-midterm',
         },
         description: 'HTML, CSS'
     },
@@ -69,7 +101,7 @@ let data = [
             text: '',
             href: 'https://github.com/cytaylorw',
         },
-        description: 'Empty Text Test'
+        description: 'GitHub Profile'
     }
     
 ];
