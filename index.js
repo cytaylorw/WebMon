@@ -42,4 +42,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // API routes
 app.use('/api/status', require('./routes/api/status'));
 
-app.listen(config.port,() => console.log(`Server started on port ${config.port}`));
+const server = app.listen(config.port,() => console.log(`Server started on port ${config.port}`));
+
+module.exports = {
+    app, 
+    server
+}; // testing
